@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1 File Metadata Microservice
+  form(id="data" method="post",enctype="multipart/form-data",action="/")
+    p
+      input(id="file" type="file",name="upl")
+  p
+    input(id="submit" type="submit")
+    
+      
